@@ -8,11 +8,12 @@
     */
 
     //ENTRADA
-
-
+    const kmlitro = Number(prompt("Informe quanto a motocicleta faz por litro"));
+    const kmpercorrido = Number(prompt("Informe quantos KM a motocicleta ja percorreu"));
     //PROCESSAMENTO
-
+    let revisão = Number (2000 / kmlitro);
+    let kmporlitro = kmlitro + revisão;
 
     //SAÍDA
-
+    alert(`A quantidade gasta foi de ${kmporlitro.toFixed(2)}`)
 </script>

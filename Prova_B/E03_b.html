@@ -13,8 +13,8 @@
     //PROCESSAMENTO
     let litro = Number (5.29 * 14)
     let pedagio = Number (4.90 * 50);
-    const viagem = kmviagem * litro + pedagio;
+    const viagem = kmviagem + litro + pedagio;
 
     //SAÍDA
-    alert(`A sua viagem teve um custo com gasolina e pedagio de ${viagem}`)
+    alert(`A sua viagem teve um custo com gasolina e pedagio de ${viagem.toFixed(2)}`)
 </script>
